@@ -1,0 +1,212 @@
+/* import Sofia font */
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Sofia', sans-serif;
+}
+
+.slide1, .slide2, .slide3, .slide4, .slide5{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.slide1{
+    z-index: -1;
+}
+
+.slide2{
+    z-index: -2;
+}
+
+.slide3{
+    z-index: -3;
+}
+
+.slide4{
+    z-index: -4;
+}
+
+.slide5{
+    z-index: -5;
+}
+
+.head{
+    display: grid;
+    place-content: center;
+    place-items: center;
+    width: 100%;
+    height: 15%;
+    font-family: Sofia;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.877);
+    background: url('img6.jpeg');
+    background-size: cover;
+    font-size: 3rem;
+
+}
+
+.imgp{
+    width: 100%;
+    height: 70%;
+    background: url('img5.jpeg');
+    background-size: 100% 170%;
+    background-position: center;
+}
+
+.foot{
+    display: grid;
+    place-content: center;
+    place-items: center;
+    width: 100%;
+    height: 15%;
+    font-family: Sofia;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.877);
+    background: url('img6.jpeg');
+    background-size: cover;
+    font-size: 3rem;
+}
+
+
+.left{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.right{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.left img{
+    position: absolute;
+    width: 200%;
+    height: 100%;
+}
+
+.right img{
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    right: 0;
+}
+
+#img1{
+    position: absolute;
+    height: 13%;
+    width: 7%;
+    top: 1%;
+    left: 1%;
+}
+
+#img2{
+    position: absolute;
+    height: 13%;
+    width: 7%;
+    top: 1%;
+    right: 1%;
+}
+
+#img3{
+    position: absolute;
+    height: 14%;
+    width: 7%;
+    bottom: 1%;
+    left: 1%;
+}
+
+#img4{
+    position: absolute;
+    height: 14%;
+    width: 7%;
+    bottom: 1%;
+    right: 1%;
+}
+
+.cont{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 70%;
+}
+
+.intro, .design, .model, .graph{
+    background: rgba(255, 255, 255, 0.51);
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: relative;
+    overflow: scroll;
+}
+
+.title{
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+#img5{
+    position: relative;
+    left:0;
+    width:30%;
+    height: 90%;
+}
+
+#img6{
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+}
+
+.banner{
+    display: flex;
+}
+
+.mini{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.sub{
+    font-size: 2rem;
+    text-align: center;
+}
+
+p{
+    font-size: 1rem;
+}
+
+ul{
+    padding-left: 60px;
+    list-style-type: inside;
+    list-style: upper-roman;
+}
+
+li{
+    padding-left: 5%;
+    font-size: 2rem;
+}
+
+.design, .model, .graph{
+    display: none;
+}
